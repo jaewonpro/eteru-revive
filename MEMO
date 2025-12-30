@@ -17,11 +17,16 @@
 ⏳json : https://github.com/serde-rs/json
 file watcher : https://github.com/notify-rs/notify
 
-
-android compilation : https://github.com/bbqsrc/cargo-ndk
+jni : https://crates.io/crates/jni
+android : https://github.com/bbqsrc/cargo-ndk
 
 ___
 
+https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html
+https://doc.rust-lang.org/book/ch16-03-shared-state.html#shared-access-to-mutext
+https://tokio.rs/tokio/tutorial/shared-state
+https://github.com/pretzelhammer/rust-blog/blob/master/posts/learning-rust-in-2024.md
+___
 
 node A [2025/12/01]:
   file .stub : 000 > a2e
