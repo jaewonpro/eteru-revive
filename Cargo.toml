@@ -1,0 +1,31 @@
+[package]
+name = "eteru-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+rayon = "1.11"
+anyhow = "1.0"
+toml = "0.9"
+serde = "1"
+blake3 = "1"
+memmap2 = "0.9"
+axum = { version = "0.8", features = ["ws"] }
+reqwest = { version = "0.12", features = ["json"] }
+tokio-tungstenite = "*"
+redb = "3.1"
+rkyv = { version = "0.8", features = ["bytecheck"] }
+
+[lib]
+name = "generic"           # The name of the target.
+path = "src/lib.rs"    # The source file of the target.
+test = true            # Is tested by default.
+doctest = false         # Documentation examples are tested by default.
+bench = false           # Is benchmarked by default.
+doc = false             # Is documented by default.
+proc-macro = false     # Set to `true` for a proc-macro library.
+harness = true         # Use libtest harness.
+crate-type = ["lib", "cdylib"]   # The crate types to generate.
+required-features = [] # Features required to build this target (N/A for lib).

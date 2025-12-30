@@ -1,0 +1,34 @@
+# crates
+✅data parallel : https://github.com/rayon-rs/rayon
+✅async : https://tokio.rs/
+✅error : anyhow
+✅async++ : https://github.com/rust-lang/futures-rs
+⏳thread : https://github.com/crossbeam-rs/crossbeam
+
+✅http client : https://github.com/seanmonstar/reqwest
+✅http/ws server : https://github.com/tokio-rs/axum
+✅ws client : https://github.com/snapview/tokio-tungstenite
+
+✅hash : https://github.com/BLAKE3-team/BLAKE3
+✅mmap : https://github.com/RazrFalcon/memmap2-rs
+✅toml : https://crates.io/crates/toml
+✅db : https://github.com/cberner/redb
+✅serialize : https://github.com/rkyv/rkyv
+⏳json : https://github.com/serde-rs/json
+file watcher : https://github.com/notify-rs/notify
+
+
+android compilation : https://github.com/bbqsrc/cargo-ndk
+
+___
+
+
+node A [2025/12/01]:
+  file .stub : 000 > a2e
+
+node B [2025/12/03]:
+  file .stub : 000 > 49f
+
+sync A-B [2025/12/04]: 
+  
+

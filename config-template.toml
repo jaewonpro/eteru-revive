@@ -1,0 +1,16 @@
+[config]
+server_enable = false   # optional
+port = 9009             # optional
+# tls_cert = "TBD"      # optional
+# tls_priv = "TBD"      # optional
+
+
+
+
+[[servers]]
+name = "test-server"    # required
+remote = "localhost"    # required
+identity = "username"   # required
+key = "TBD"             # required
+port = 9009             # optional
+
